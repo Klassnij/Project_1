@@ -1,0 +1,19 @@
+{
+  "n8nConfig": {
+    "database": {
+      "type": "postgresdb",
+      "host": "localhost",
+      "port": 5432,
+      "username": "user",
+      "password": "password",
+      "database": "n8n"
+    },
+    "server": {
+      "port": 5678
+    },
+    "executions": {
+      "process": 10,
+      "timeout": 300
+    }
+  }
+}
